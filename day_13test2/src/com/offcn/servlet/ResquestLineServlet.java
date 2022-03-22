@@ -25,6 +25,6 @@ public class ResquestLineServlet extends HttpServlet{
 		System.out.println(contextPath);
 		System.out.println(method);
 		System.out.println(queryString);
-		System.out.println(“你号啊222”);
+		System.out.println(“你号啊22222332”);
 	}
 }
