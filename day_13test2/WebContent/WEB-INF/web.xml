@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>day_13test2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>ResponseHeaderServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.ResponseHeaderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ResponseHeaderServlet</servlet-name>
+  <url-pattern>/responseHeader</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ShowImageServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.ShowImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ShowImageServlet</servlet-name>
+  <url-pattern>/showImage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DownloadServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DownloadServlet</servlet-name>
+  <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ResponsebodyServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.ResponsebodyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ResponsebodyServlet</servlet-name>
+  <url-pattern>/responserBody</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>ResquestLineServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.ResquestLineServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ResquestLineServlet</servlet-name>
+  <url-pattern>/requestLine</url-pattern>
+  </servlet-mapping>
+  
+   
+   <servlet>
+  <servlet-name>RequestHeaderServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.RequestHeaderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>RequestHeaderServlet</servlet-name>
+  <url-pattern>/requestHeader</url-pattern>
+  </servlet-mapping>
+  
+    
+   <servlet>
+  <servlet-name>ResqustBodyServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.ResqustBodyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ResqustBodyServlet</servlet-name>
+  <url-pattern>/requestBody</url-pattern>
+  </servlet-mapping>
+  
+     
+   <servlet>
+  <servlet-name>UploadServlet</servlet-name>
+  <servlet-class>com.offcn.servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UploadServlet</servlet-name>
+  <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

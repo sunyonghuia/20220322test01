@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		get请求下，只能传递ascii编码的字符文本数据，不能传递二进制数据
+		post请求下，即可以传递ascii编码的字符文本，也可以传递像图片之类的二进制！ 
+		
+		multipart/form-data表示表单此时的数据类型为多类型的
+		post请求只是具备了提交多种数据类型的能力，如果想要此时提交多类型的数据
+		我们就需要指定enctype属性！
+	 -->
+	<form action="upload" method="post" enctype="multipart/form-data">
+		姓名：<input type="text" name="sname" placeholder="请输入姓名" /><br />
+		头像：<input type="file" name="photo" /><br />
+		<input type="submit" value="提交" />
+	</form>
+</body>
+</html>
