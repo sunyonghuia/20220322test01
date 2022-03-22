@@ -19,7 +19,6 @@ public class ResquestLineServlet extends HttpServlet{
 		String contextPath = request.getContextPath();
 		String method = request.getMethod();
 		String queryString = request.getQueryString();
-		System.out.println(scheme);
 		System.out.println(protocol);
 		System.out.println(serverName);
 		System.out.println(localPort);
